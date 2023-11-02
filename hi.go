@@ -1,5 +1,6 @@
-import "fmt"
+package repo
 
-func SayHi() {
-	fmt.Println("Hello, 世界")
+
+func SayHi() string {
+	return string("Hello, 世界")
 }
